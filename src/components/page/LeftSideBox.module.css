@@ -1,0 +1,11 @@
+.left{
+    /* position:relative; */
+    z-index: 100;
+}
+
+@media(max-width:1080px){
+    .left{
+        display: none;
+    }
+}
+

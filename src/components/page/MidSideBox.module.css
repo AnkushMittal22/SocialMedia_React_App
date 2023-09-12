@@ -1,0 +1,10 @@
+.midbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 45%;
+    width: 100%;
+    /* margin-left: 100px; */
+}

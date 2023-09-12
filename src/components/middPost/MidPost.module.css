@@ -1,0 +1,108 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+    padding-top: 1.875rem;
+    padding-left: 80px;
+    width: 31.25rem;
+}
+
+@media(max-width:1080px){
+    .head{
+        padding-top: 54.875rem; 
+    }
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    cursor: auto;
+    user-select: text !important;
+     
+}
+
+.post{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(219, 112, 147) -0.3125rem -0.3125rem 0.3125rem;
+    height: auto;
+    justify-content: flex-start;
+    margin-bottom: 1.875rem;
+    max-width: 29rem;
+    border-width: 0.016rem;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    border-image: initial;
+    border-radius: 1.25rem;
+    padding: 0.625rem 0.625rem 1.875rem;
+}
+
+.top_mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.box_mid{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.3125rem;
+}
+
+.image_mid{
+    cursor: pointer;
+    height: 3.125rem;
+    width: 3.125rem;
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: rgb(219, 112, 147);
+    border-image: initial;
+    border-radius: 50%;
+    margin: 0px 0.625rem;
+}
+
+.imageCont{
+    box-shadow: rgb(136, 136, 136) 0.625rem 0.625rem 1.25rem;
+    height: auto;
+    min-height: 12.5rem;
+    position: relative;
+    width: 100%;
+    border-radius: 0.625rem;
+}
+
+.imageCont_in{
+    height: inherit;
+    max-height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 0.625rem;
+    transition: opacity 1s ease-in-out 0s;
+}
+
+
+.thanks{
+    font-size: .8125rem;
+    height: auto;
+    margin-bottom: 1.25rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    width: 95%;
+}
+
+.lastbutton{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.lastbutton_final{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    gap: 0.5rem;
+}

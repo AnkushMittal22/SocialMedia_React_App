@@ -1,0 +1,15 @@
+.leftbox{
+    position: relative;
+    top: 150px;
+}
+
+.midbox{
+    position: relative;
+    top: -770px;
+}
+
+.rightbox{
+    float: right;
+    position: relative;
+    top: -1900px;
+}

@@ -1,0 +1,137 @@
+.nav_first{
+    padding: 10px 0px;
+    background-color: #fff;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    display: flex;
+}
+
+
+.logo_first{
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.nav_first a img{
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    width: 40px;
+}
+
+.gurp{
+padding: 5px 10px 0 10px;
+}
+
+h4 {
+    padding: 5px 0 0 5px;
+}
+
+.contain ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.contain li{
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+    font-size: medium;
+    font-weight: 100px;
+    padding: 15px;
+    text-align: center;
+}
+
+.searchbar{
+    align-items: center;
+    display: flex;
+}
+
+.searchInput{
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 20px;
+    padding: 10px 10px;
+    width: 150px;
+}
+
+.searchButton{
+    border: none;
+    color: #000;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.iconButton{
+    position: relative;
+}
+
+.iconButton i{
+    font-size: 27px;
+    margin-left: 0;
+    padding: 4px 10px 0 0;
+}
+
+.dropDown{
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dropDown img{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.dropDowncontent {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.dropDowncontent a{
+    align-items: center;
+    color: #000;
+    display: flex;
+    float: none;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+.dropDowncontent i{
+    margin-right: 5px;
+}
+
+.dropDown:hover .dropDowncontent{
+    display: block;
+}
+ 
+@media(max-width:1080px){
+    .contain, .searchbar, .iconButton{
+        display: none;
+    }
+
+}
